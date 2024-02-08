@@ -1,0 +1,109 @@
+body{
+  margin : 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+.player-card{
+ border: 3px solid rgb(116, 113, 113);
+ background-color: rgb(130, 170, 244);
+ border-radius: 5px;
+ width: 400px;
+ height: 480px;
+ margin: 10px;
+}
+.player-div {
+  height: 330px;
+  border: 1px solid rgb(244, 229, 229);
+  margin: 10px 10px 0px 10px;
+  
+}
+.player-image {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgb(16, 15, 15);
+  object-fit: cover;
+  cursor: pointer;
+}
+.player-info{
+  padding: 10px;
+  align-items: center; 
+  justify-content: center;
+}
+
+.deleteLink {
+  margin-right: 10px;
+}
+
+.new-player-menu{
+  margin-right: 40px;
+}
+
+.form-container{
+  margin: 1% 15%;
+  padding: 2%;
+}
+
+.newPlayer-form {
+width: 70%;
+border : 2px solid rgb(168, 167, 167);
+ padding: 2%;
+}
+
+ label {
+  margin: 10px;
+  font-size: large;
+  width: 100%;
+ }
+ input, select{
+  display: block;
+  width: 90%;
+  border: 1px solid rgb(183, 180, 180);
+  border-radius: 5px;
+ }
+
+ .newplayer-submit {
+  margin: 1% 40%;
+  border-radius: 6px;
+  font-size: large;
+ }
+.successMessage {
+  color: green;
+  font-weight: bolder;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bolder;
+}
+
+.container-singlePlayer{
+
+  margin: 2% 20%;
+  display: flex;
+}
+.image-container {
+  width: 400px;
+  border-radius: 4px;
+  padding: 4px;
+}
+.single-playerImage {
+  height: 100%;
+  width: 100%;
+  border: 2px solid rgb(231, 225, 225);
+  object-fit: cover;
+  cursor: pointer;
+}
+.info-container {
+  color: rgb(46, 46, 138);
+  padding : 2%;
+}
+.spacing {
+  padding: 30px;
+}
+.nav-link {
+  margin-right: 40px;
+}
